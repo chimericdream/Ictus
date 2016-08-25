@@ -1,0 +1,21 @@
+{
+  "name": "ictus",
+  "version": "0.0.1-alpha",
+  "description": "A set of dashboards, components, and other administrative tools built using Bootstrap 4 and other modern technologies.",
+  "author": "Bill Parrott <bill@chimericdream.com>",
+  "homepage": "https://github.com/chimericdream/Ictus",
+  "scripts": {},
+  "repository": "chimericdream/Ictus",
+  "bugs": {
+    "url": "https://github.com/chimericdream/Ictus/issues"
+  },
+  "keywords": [
+    "bootstrap",
+    "dashboard",
+    "admin",
+    "control panel"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "license": "MIT"
+}
