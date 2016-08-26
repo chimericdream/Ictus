@@ -25,6 +25,7 @@
     "eslint-config-chimericdream": "^1.0.1",
     "express": "^4.14.0",
     "express-compile-sass": "^3.0.4",
+    "gulp": "^3.9.1",
     "hbs": "^4.0.0"
   },
   "license": "MIT"
