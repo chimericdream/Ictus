@@ -13,9 +13,19 @@
     "bootstrap",
     "dashboard",
     "admin",
-    "control panel"
+    "control panel",
+    "frameworks",
+    "components"
   ],
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "bower": "^1.7.9"
+  },
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-chimericdream": "^1.0.1",
+    "express": "^4.14.0",
+    "express-compile-sass": "^3.0.4",
+    "hbs": "^4.0.0"
+  },
   "license": "MIT"
 }
