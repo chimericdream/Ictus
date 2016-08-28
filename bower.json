@@ -1,23 +1,24 @@
 {
-  "name": "ictus",
-  "description": "A set of dashboards, components, and other administrative tools built using Bootstrap 4 and other modern technologies.",
-  "authors": [
-    "Bill Parrott <bill@chimericdream.com>"
-  ],
-  "license": "MIT",
-  "keywords": [
-    "bootstrap",
-    "dashboard",
-    "admin",
-    "control panel"
-  ],
-  "homepage": "https://github.com/chimericdream/Ictus",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "src/bower"
-  ],
-  "dependencies": {
-    "bootstrap": "4.0.0-alpha.3"
-  }
+    "name": "ictus",
+    "description": "A set of dashboards, components, and other administrative tools built using Bootstrap 4 and other modern technologies.",
+    "authors": [
+        "Bill Parrott <bill@chimericdream.com>"
+    ],
+    "license": "MIT",
+    "keywords": [
+        "bootstrap",
+        "dashboard",
+        "admin",
+        "control panel"
+    ],
+    "homepage": "https://github.com/chimericdream/Ictus",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "src/bower"
+    ],
+    "dependencies": {
+        "bootstrap": "4.0.0-alpha.3",
+        "font-awesome": "^4.6.3"
+    }
 }

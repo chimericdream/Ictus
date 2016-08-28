@@ -1,33 +1,35 @@
 {
-  "name": "ictus",
-  "version": "0.0.1-alpha",
-  "description": "A set of dashboards, components, and other administrative tools built using Bootstrap 4 and other modern technologies.",
-  "author": "Bill Parrott <bill@chimericdream.com>",
-  "homepage": "https://github.com/chimericdream/Ictus",
-  "scripts": {},
-  "repository": "chimericdream/Ictus",
-  "bugs": {
-    "url": "https://github.com/chimericdream/Ictus/issues"
-  },
-  "keywords": [
-    "bootstrap",
-    "dashboard",
-    "admin",
-    "control panel",
-    "frameworks",
-    "components"
-  ],
-  "dependencies": {
-    "bower": "^1.7.9"
-  },
-  "devDependencies": {
-    "eslint": "^3.4.0",
-    "eslint-config-chimericdream": "^1.0.1",
-    "express": "^4.14.0",
-    "express-compile-sass": "^3.0.4",
-    "gulp": "^3.9.1",
-    "gulp-config-sync": "^1.0.2",
-    "hbs": "^4.0.0"
-  },
-  "license": "MIT"
+    "name": "ictus",
+    "version": "0.0.1-alpha",
+    "description": "A set of dashboards, components, and other administrative tools built using Bootstrap 4 and other modern technologies.",
+    "author": "Bill Parrott <bill@chimericdream.com>",
+    "homepage": "https://github.com/chimericdream/Ictus",
+    "scripts": {
+        "demo": "node demo/site.js"
+    },
+    "repository": "chimericdream/Ictus",
+    "bugs": {
+        "url": "https://github.com/chimericdream/Ictus/issues"
+    },
+    "keywords": [
+        "bootstrap",
+        "dashboard",
+        "admin",
+        "control panel",
+        "frameworks",
+        "components"
+    ],
+    "dependencies": {
+        "bower": "^1.7.9"
+    },
+    "devDependencies": {
+        "eslint": "^3.4.0",
+        "eslint-config-chimericdream": "^1.0.1",
+        "express": "^4.14.0",
+        "express-compile-sass": "^3.0.4",
+        "gulp": "^3.9.1",
+        "gulp-config-sync": "^1.0.2",
+        "hbs": "^4.0.0"
+    },
+    "license": "MIT"
 }
