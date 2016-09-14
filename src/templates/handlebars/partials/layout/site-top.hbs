@@ -10,9 +10,11 @@
 
     <title>Ictus Demo Site</title>
 
-    <link href="complete.scss" rel="stylesheet" type="text/css">
+    <link href="/complete.scss" rel="stylesheet" type="text/css">
 </head>
 <body>
+    {{> nav }}
+    {{!--
     <nav id="main-navbar" class="navbar navbar-fixed-top navbar-dark bg-inverse">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">Ictus</a>
@@ -36,37 +38,10 @@
             </ul>
         </div>
     </nav>
-    <section class="container-fluid">
-        <section id="left-sidebar" class="col-sm-3 col-md-2">
-            <ul class="nav nav-pills">
-            {{#each demo-pages}}
-                <li class="nav-item{{#equal current-page @key}} active{{/equal}}">
-                    {{#if sub-pages}}
-                        <a data-toggle="collapse" data-parent="#left-sidebar" href="#collapse-{{ slugify @key }}" aria-expanded="false" aria-controls="collapse-{{ slugify @key }}">{{ name }}</a>
-                        <nav id="collapse-{{ slugify @key }}" class="nav nav-pills"
-                    {{else}}
-                        <a class="nav-link" href="{{ @key }}"></a>
-                    {{/if}}
-                </li>
-            {{/each}}
-            </ul>
-            <ul class="nav nav-sidebar">
-                <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Reports</a></li>
-                <li><a href="#">Analytics</a></li>
-                <li><a href="#">Export</a></li>
-            </ul>
-            <ul class="nav nav-sidebar">
-                <li><a href="">Nav item</a></li>
-                <li><a href="">Nav item again</a></li>
-                <li><a href="">One more nav</a></li>
-                <li><a href="">Another nav item</a></li>
-                <li><a href="">More navigation</a></li>
-            </ul>
-            <ul class="nav nav-sidebar">
-                <li><a href="">Nav item again</a></li>
-                <li><a href="">One more nav</a></li>
-                <li><a href="">Another nav item</a></li>
-            </ul>
-        </section>
-        <section id="main-content" class="col-sm-9 offset-sm-3 col-md-10 offset-md-2">
+    --}}
+    <section id="site-wrap" class="container-fluid">
+        <div class="row">
+            <section id="main-sidebar" class="col-sm-3 col-md-2">
+                {{> sidebar }}
+            </section>
+            <section id="main-content" class="col-sm-9 col-md-10">

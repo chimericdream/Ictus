@@ -1,0 +1,16 @@
+.table-inverse {
+    @include bg-variant('.table-active', $brand-primary);
+    @include table-row-variant('active', $brand-primary);
+
+    @include bg-variant('.table-success', $brand-success);
+    @include table-row-variant('success', $brand-success);
+
+    @include bg-variant('.table-info', $brand-info);
+    @include table-row-variant('info', $brand-info);
+
+    @include bg-variant('.table-warning', $brand-warning);
+    @include table-row-variant('warning', $brand-warning);
+
+    @include bg-variant('.table-danger', $brand-danger);
+    @include table-row-variant('danger', $brand-danger);
+}

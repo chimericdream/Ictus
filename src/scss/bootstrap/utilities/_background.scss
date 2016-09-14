@@ -1,0 +1,17 @@
+@include bg-variant('.bg-primary-active', $brand-primary-active);
+@include bg-variant('.bg-primary-disabled', $brand-primary-disabled);
+
+@include bg-variant('.bg-success-active', $brand-success-active);
+@include bg-variant('.bg-success-disabled', $brand-success-disabled);
+
+@include bg-variant('.bg-info-active', $brand-info-active);
+@include bg-variant('.bg-info-disabled', $brand-info-disabled);
+
+@include bg-variant('.bg-warning-active', $brand-warning-active);
+@include bg-variant('.bg-warning-disabled', $brand-warning-disabled);
+
+@include bg-variant('.bg-danger-active', $brand-danger-active);
+@include bg-variant('.bg-danger-disabled', $brand-danger-disabled);
+
+@include bg-variant('.bg-inverse-active', $brand-inverse-active);
+@include bg-variant('.bg-inverse-disabled', $brand-inverse-disabled);

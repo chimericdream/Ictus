@@ -1,0 +1,28 @@
+.nav-pills {
+    .nav-header {
+        display: block;
+        font-weight: bold;
+        padding: $nav-link-padding;
+        @include border-radius($nav-pills-border-radius);
+    }
+}
+
+.nav-stacked {
+    + .nav-stacked {
+        margin-top: $grid-gutter-width / 2;
+    }
+
+    & > .nav-stacked {
+        & > .nav-link {
+            font-size: $font-size-sm;
+            padding-left: calc(1em + #{$grid-gutter-width / 2});
+        }
+    }
+}
+
+a.nav-header[data-toggle] {
+    &:focus, &:hover {
+        color: $link-color;
+        text-decoration: $link-decoration;
+    }
+}

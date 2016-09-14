@@ -1,1 +1,29 @@
+$fa-font-path: "../bower/font-awesome/fonts";
 $enable-flex: true;
+
+$gray-dark: #373a3c;
+$gray: #55595c;
+$gray-light: #818a91;
+$gray-lighter: #eceeef;
+$gray-lightest: #f7f7f9;
+
+$brand-primary: #073b4c;
+$brand-success: #06d6a0;
+$brand-info: #118ab2;
+$brand-warning: #ffd166;
+$brand-danger: #ef476f;
+$brand-inverse: $gray-dark;
+
+$brand-primary-active: darken($brand-primary, 10%);
+$brand-success-active: darken($brand-success, 10%);
+$brand-info-active: darken($brand-info, 10%);
+$brand-warning-active: darken($brand-warning, 10%);
+$brand-danger-active: darken($brand-danger, 10%);
+$brand-inverse-active: darken($brand-inverse, 10%);
+
+$brand-primary-disabled: fade_out($brand-primary, 0.35);
+$brand-success-disabled: fade_out($brand-success, 0.35);
+$brand-info-disabled: fade_out($brand-info, 0.35);
+$brand-warning-disabled: fade_out($brand-warning, 0.35);
+$brand-danger-disabled: fade_out($brand-danger, 0.35);
+$brand-inverse-disabled: fade_out($brand-inverse, 0.35);

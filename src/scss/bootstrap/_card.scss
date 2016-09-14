@@ -1,0 +1,13 @@
+.card {
+    & > .card-img-top {
+        max-width: 100%;
+    }
+}
+
+.card-primary, .card-success, .card-info, .card-warning, .card-danger {
+    border: none;
+
+    .card-footer {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+}

@@ -1,6 +1,26 @@
 @import "variables";
-@import "../bower/bootstrap/scss/bootstrap";
 
-body {
-    padding-top: 50px;
+@import "../bower/bootstrap/scss/bootstrap";
+@import "bootstrap";
+
+@import "../bower/font-awesome/scss/font-awesome";
+
+@import "code";
+
+@import "layout";
+@import "sidebar";
+
+.placeholders {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.placeholders h4 {
+    margin-bottom: 0;
+}
+.placeholder {
+    margin-bottom: 20px;
+}
+.placeholder img {
+    display: inline-block;
+    border-radius: 50%;
 }

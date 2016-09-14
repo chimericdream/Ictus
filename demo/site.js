@@ -34,15 +34,20 @@ app.set('views', path.join(__dirname, '../src/templates/handlebars/pages'));
 hbs.registerPartials(path.join(__dirname, '../src/templates/handlebars/partials'));
 
 app.get('/*', (request, response) => {
+    if (request.path === '/favicon.ico') {
+        response.end();
+        return;
+    }
+
     let template;
     if (request.path === '/') {
         template = 'index.hbs';
     } else {
-        template = `${ request.path }.json`;
+        template = `${ request.path.replace(/^(?:\/)?(.+?)(?:\/)?$/g, '$1') }.hbs`;
     }
     render(template, request, response);
 });
 
 app.listen(DEFAULT_HTTP_PORT, () => {
-    console.log('web server started!');
+    console.log('Ictus demo server running. View it at http://localhost:8989/.');
 });

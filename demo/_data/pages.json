@@ -1,1 +1,62 @@
-{}
+{
+    "dashboards": {
+        "text": "Dashboards",
+        "icon": "tachometer",
+        "links": [
+            {"text": "Example #1", "icon": "circle-o", "path": "/"}
+        ]
+    },
+    "charts": {
+        "text": "Charts & Graphs",
+        "icon": "bar-chart",
+        "links": [
+            {"text": "Link #1", "icon": "circle-o", "path": "/charts/link-1/"},
+            {"text": "Link #2", "icon": "circle-o", "path": "/charts/link-2/"},
+            {"text": "Link #3", "icon": "circle-o", "path": "/charts/link-3/"},
+            {"text": "Link #4", "icon": "circle-o", "path": "/charts/link-4/"},
+            {"text": "Link #5", "icon": "circle-o", "path": "/charts/link-5/"}
+        ]
+    },
+    "components": {
+        "text": "UI Components",
+        "icon": "puzzle-piece",
+        "links": [
+            {"text": "General", "icon": "circle-o", "path": "/components/general/"},
+            {"text": "Cards", "icon": "circle-o", "path": "/components/cards/"},
+            {"text": "Link #2", "icon": "circle-o", "path": "/components/link-2/"},
+            {"text": "Link #3", "icon": "circle-o", "path": "/components/link-3/"},
+            {"text": "Link #4", "icon": "circle-o", "path": "/components/link-4/"},
+            {"text": "Link #5", "icon": "circle-o", "path": "/components/link-5/"}
+        ]
+    },
+    "forms": {
+        "text": "Forms",
+        "icon": "pencil-square-o",
+        "links": [
+            {"text": "Link #1", "icon": "circle-o", "path": "/forms/link-1/"},
+            {"text": "Link #2", "icon": "circle-o", "path": "/forms/link-2/"},
+            {"text": "Link #3", "icon": "circle-o", "path": "/forms/link-3/"},
+            {"text": "Link #4", "icon": "circle-o", "path": "/forms/link-4/"},
+            {"text": "Link #5", "icon": "circle-o", "path": "/forms/link-5/"}
+        ]
+    },
+    "tables": {
+        "text": "Tables",
+        "icon": "table",
+        "links": [
+            {"text": "Basic Options", "icon": "circle-o", "path": "/tables/base/"},
+            {"text": "DataTables", "icon": "circle-o", "path": "/tables/data-tables/"}
+        ]
+    },
+    "examples": {
+        "text": "Examples",
+        "icon": "folder-o",
+        "links": [
+            {"text": "Link #1", "icon": "circle-o", "path": "/examples/link-1/"},
+            {"text": "Link #2", "icon": "circle-o", "path": "/examples/link-2/"},
+            {"text": "Link #3", "icon": "circle-o", "path": "/examples/link-3/"},
+            {"text": "Link #4", "icon": "circle-o", "path": "/examples/link-4/"},
+            {"text": "Link #5", "icon": "circle-o", "path": "/examples/link-5/"}
+        ]
+    }
+}

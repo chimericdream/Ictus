@@ -1,0 +1,10 @@
+@import "bootstrap/card";
+@import "bootstrap/code";
+@import "bootstrap/list-group";
+@import "bootstrap/nav";
+@import "bootstrap/tables";
+@import "bootstrap/utilities";
+
+.btn + .table {
+    margin-top: ($grid-gutter-width / 2);
+}
