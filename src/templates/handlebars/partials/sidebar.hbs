@@ -1,4 +1,4 @@
-{{#each demo-pages}}
+{{#each site-pages}}
 <nav class="nav nav-pills nav-stacked">
     {{#if links}}
         <a class="nav-header" href="#collapse-{{ slugify @key }}" data-toggle="collapse" data-parent="#main-sidebar" aria-expanded="{{#hasActivePath links ../current-page}}true{{ else }}false{{/hasActivePath}}" aria-controls="collapse-{{ slugify @key }}">{{#if icon }}<i class="fa fa-{{ icon }}"></i> {{/if}}{{ text }}</a>
