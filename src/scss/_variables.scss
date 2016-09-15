@@ -7,12 +7,22 @@ $gray-light: #818a91;
 $gray-lighter: #eceeef;
 $gray-lightest: #f7f7f9;
 
-$brand-primary: #073b4c;
-$brand-success: #06d6a0;
-$brand-info: #118ab2;
-$brand-warning: #ffd166;
-$brand-danger: #ef476f;
+/**
+ * Main color scheme: https://coolors.co/f6511d-ffb400-00a6ed-7fb800-0d2c54
+ * Alt color schemes
+ *  - https://coolors.co/5f0f40-9a031e-fb8b24-e36414-0f4c5c
+ *  - https://coolors.co/df2935-86ba90-f5f3bb-dfa06e-412722
+ *  - https://coolors.co/5bc0eb-fde74c-9bc53d-e55934-fa7921
+ *  - https://coolors.co/2d7dd2-97cc04-eeb902-f45d01-474647
+ *  - https://coolors.co/ef476f-ffd166-06d6a0-118ab2-073b4c
+ */
+$brand-primary: #0d2c54;
+$brand-success: #7fb800;
+$brand-info: #00a6ed;
+$brand-warning: #ffb400;
+$brand-danger: #f6511d;
 $brand-inverse: $gray-dark;
+
 
 $brand-primary-active: darken($brand-primary, 10%);
 $brand-success-active: darken($brand-success, 10%);

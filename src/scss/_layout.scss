@@ -7,6 +7,17 @@ body {
     padding-top: 54px;
 }
 
+#main-sidebar {
+    &.off-canvas {
+        display: none;
+
+        & + #main-content {
+            flex-basis: 100%;
+            max-width: 100%;
+        }
+    }
+}
+
 #main-content {
     padding-bottom: $grid-gutter-width / 2;
     padding-top: $grid-gutter-width / 2;
