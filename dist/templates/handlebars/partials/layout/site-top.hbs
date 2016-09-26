@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Ictus Demo Site</title>
+
+    <link href="/complete.scss" rel="stylesheet" type="text/css">
+</head>
+<body>
+    {{> nav }}
+    {{!--
+    <nav id="main-navbar" class="navbar navbar-fixed-top navbar-dark bg-inverse">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Ictus</a>
+            <ul class="nav navbar-nav">
+                {{#each demo-pages}}
+                    <li class="nav-item{{#equal current-page @key}} active{{/equal}}">
+                        {{#if sub-pages}}
+                            <div class="dropdown">
+                                <a class="nav-link" href="#" data-toggle="dropdown">{{ name }}</a>
+                                <div class="dropdown-menu">
+                                    {{#each sub-pages}}
+                                        <a class="dropdown-item" href="{{ @key }}">{{ name }}</a>
+                                    {{/each}}
+                                </div>
+                            </div>
+                        {{else}}
+                            <a class="nav-link" href="{{ @key }}"></a>
+                        {{/if}}
+                    </li>
+                {{/each}}
+            </ul>
+        </div>
+    </nav>
+    --}}
+    <section id="site-wrap" class="container-fluid">
+        <div class="row">
+            <section id="main-sidebar" class="col-xs-3 col-md-2">
+                {{> sidebar }}
+            </section>
+            <section id="main-content" class="col-xs col-md-10">

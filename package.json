@@ -24,12 +24,19 @@
     "moment": "^2.15.0"
   },
   "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "del": "^2.2.2",
     "eslint": "^3.4.0",
     "eslint-config-chimericdream": "^1.0.1",
     "express": "^4.14.0",
     "express-compile-sass": "^3.0.4",
     "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
     "gulp-config-sync": "^1.0.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
     "hbs": "^4.0.0",
     "node-sass": "^3.8.0"
   },

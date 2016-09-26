@@ -1,0 +1,14 @@
+{{#each site-pages}}
+<nav class="nav nav-pills nav-stacked">
+    {{#if links}}
+        <a class="nav-header" href="#collapse-{{ slugify @key }}" data-toggle="collapse" data-parent="#main-sidebar" aria-expanded="{{#hasActivePath links ../current-page}}true{{ else }}false{{/hasActivePath}}" aria-controls="collapse-{{ slugify @key }}">{{#if icon }}<i class="fa fa-{{ icon }}"></i> {{/if}}{{ text }}</a>
+        <nav id="collapse-{{ slugify @key }}" class="nav nav-pills nav-stacked collapse{{#hasActivePath links ../current-page}} in{{/hasActivePath}}">
+        {{#each links}}
+            <a class="nav-link{{#equal ../../current-page path}} active{{ else }}{{#nequal path "/"}}{{#startswith ../../current-page path}} active{{/startswith}}{{/nequal}}{{/equal}}" href="{{ path }}">{{#if icon }}<i class="fa fa-{{ icon }}"></i> {{/if}}{{ text }}</a>
+        {{/each}}
+        </nav>
+    {{ else }}
+        <a class="nav-link{{#equal ../current-page path}} active{{ else }}{{#startswith ../current-page path}} active{{/startswith}}{{/equal}}" href="{{ path }}">{{#if icon }}<i class="fa fa-{{ icon }}"></i> {{/if}}{{ text }}</a>
+    {{/if}}
+</nav>
+{{/each}}
