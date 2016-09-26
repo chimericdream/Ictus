@@ -38,9 +38,20 @@ gulp.task('js', ['clean'], () => {
         .pipe(gulp.dest('./dist/js'));
 });
 
+gulp.task('js-full', ['js'], () => {
+    return gulp.src([
+        './src/bower/jquery/dist/jquery.js',
+        './src/bower/tether/dist/js/tether.js',
+        './src/bower/bootstrap/dist/js/bootstrap.min.js',
+        './dist/js/ictus.min.js'
+    ])
+        .pipe(concat('ictus.full.min.js'))
+        .pipe(gulp.dest('./dist/js'));
+});
+
 gulp.task('templates', ['clean'], () => {
     return gulp.src('./src/templates/**/*')
         .pipe(gulp.dest('./dist/templates'));
 });
 
-gulp.task('default', ['clean', 'css', 'js', 'templates']);
+gulp.task('default', ['clean', 'css', 'js', 'js-full', 'templates']);
