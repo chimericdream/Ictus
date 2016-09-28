@@ -1,9 +1,7 @@
-'use strict';
-
-$(document).ready(function () {
+define('core', ['jquery'], ($) => {
     'use strict';
 
-    $('#sidebar-toggle').on('click', function (event) {
+    $('#sidebar-toggle').on('click', (event) => {
         event.preventDefault();
         event.stopPropagation();
 

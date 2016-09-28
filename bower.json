@@ -19,6 +19,9 @@
   ],
   "dependencies": {
     "bootstrap": "4.0.0-alpha.4",
-    "font-awesome": "^4.6.3"
+    "font-awesome": "^4.6.3",
+    "notifyjs": "^0.4.2",
+    "chart.js": "^2.3.0",
+    "moment": "^2.15.1"
   }
 }
