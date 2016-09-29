@@ -2,10 +2,16 @@
         </div><!-- /.row -->
     </section><!-- /.container-fluid -->
 
-    <script src="/bower/jquery/dist/jquery.min.js"></script>
-    <script src="/bower/tether/dist/js/tether.min.js"></script>
-    <script src="/bower/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    <script src="/assets/js/layout.js"></script>
+    <script src="/js/libs/require.js"></script>
+    <script>
+        requirejs.config({
+            'baseUrl': 'js',
+            'paths': {
+                'jquery': 'libs/jquery',
+                'tether': 'libs/tether',
+                'bootstrap': 'libs/bootstrap'
+            }
+        });
+    </script>
 </body>
 </html>

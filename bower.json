@@ -22,6 +22,7 @@
     "font-awesome": "^4.6.3",
     "notifyjs": "^0.4.2",
     "chart.js": "^2.3.0",
-    "moment": "^2.15.1"
+    "moment": "^2.15.1",
+    "requirejs": "^2.3.2"
   }
 }

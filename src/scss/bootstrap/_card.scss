@@ -24,7 +24,9 @@
             flex-grow: 1;
         }
 
-        & > div {
+        & > div,
+        & > footer,
+        & > header {
             width: 100%;
         }
 

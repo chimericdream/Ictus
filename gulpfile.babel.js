@@ -47,7 +47,8 @@ gulp.task('js-libs', ['js-core'], () => {
         './src/bower/jquery/dist/jquery.min.js',
         './src/bower/moment/min/moment.min.js',
         './src/bower/tether/dist/js/tether.min.js',
-        './src/bower/bootstrap/dist/js/bootstrap.min.js'
+        './src/bower/bootstrap/dist/js/bootstrap.min.js',
+        './src/bower/requirejs/require.js'
     ])
         .pipe(flatten())
         .pipe(lec())
