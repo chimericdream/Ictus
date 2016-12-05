@@ -1,4 +1,4 @@
-define('jq-plugins', ['jquery', 'notifyjs'], ($) => {
+define('ictus-jquery', ['jquery', 'notifyjs'], ($) => {
     'use strict';
 
     $.notify.addStyle('twbs', {

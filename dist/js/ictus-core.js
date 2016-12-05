@@ -1,7 +1,9 @@
-define('core', ['jquery'], ($) => {
+'use strict';
+
+define('ictus-core', ['jquery'], function ($) {
     'use strict';
 
-    $('#sidebar-toggle').on('click', (event) => {
+    $('#sidebar-toggle').on('click', function (event) {
         event.preventDefault();
         event.stopPropagation();
 

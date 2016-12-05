@@ -18,7 +18,7 @@
     "src/bower"
   ],
   "dependencies": {
-    "bootstrap": "4.0.0-alpha.4",
+    "bootstrap": "v4-dev",
     "font-awesome": "^4.6.3",
     "notifyjs": "^0.4.2",
     "chart.js": "^2.3.0",
