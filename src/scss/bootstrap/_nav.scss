@@ -7,15 +7,15 @@
     }
 }
 
-.nav-stacked {
-    + .nav-stacked {
+.nav.flex-column {
+    + .nav.flex-column {
         margin-top: $grid-gutter-width-base / 2;
     }
 
-    & > .nav-stacked {
+    & > .nav.flex-column {
         & > .nav-link {
             font-size: $font-size-sm;
-            padding-left: calc(1em + #{$grid-gutter-width-base / 2});
+            padding-left: $nav-link-padding-x * 2;
         }
     }
 }
