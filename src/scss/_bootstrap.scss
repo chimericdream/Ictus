@@ -10,5 +10,5 @@
 @import "bootstrap/utilities";
 
 .btn + .table {
-    margin-top: ($grid-gutter-width / 2);
+    margin-top: ($grid-gutter-width-base / 2);
 }

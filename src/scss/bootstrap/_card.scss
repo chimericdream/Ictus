@@ -13,25 +13,23 @@
 }
 
 // With flexbox enabled, cards should be the full height of their grid column
-@if $enable-flex {
-    [class*="col-"] > .card {
-        align-items: flex-start;
-        display: flex;
-        flex-direction: column;
-        height: calc(100% - #{$card-spacer-y});
+[class*="col-"] > .card {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - #{$card-spacer-y});
 
-        & > .card-block {
-            flex-grow: 1;
-        }
+    & > .card-block {
+        flex-grow: 1;
+    }
 
-        & > div,
-        & > footer,
-        & > header {
-            width: 100%;
-        }
+    & > div,
+    & > footer,
+    & > header {
+        width: 100%;
+    }
 
-        & > .card-footer {
-            align-self: flex-end;
-        }
+    & > .card-footer {
+        align-self: flex-end;
     }
 }

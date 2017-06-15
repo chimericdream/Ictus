@@ -1,9 +1,9 @@
 .navbar-brand {
     a {
-        color: $navbar-dark-active-color;
+        color: $navbar-inverse-active-color;
 
         @include hover-focus {
-            color: $navbar-dark-active-color;
+            color: $navbar-inverse-active-color;
         }
     }
 }

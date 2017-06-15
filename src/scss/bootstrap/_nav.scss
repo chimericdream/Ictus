@@ -2,20 +2,20 @@
     .nav-header {
         display: block;
         font-weight: bold;
-        padding: $nav-link-padding;
+        padding: $nav-link-padding-y $nav-link-padding-x;
         @include border-radius($nav-pills-border-radius);
     }
 }
 
 .nav-stacked {
     + .nav-stacked {
-        margin-top: $grid-gutter-width / 2;
+        margin-top: $grid-gutter-width-base / 2;
     }
 
     & > .nav-stacked {
         & > .nav-link {
             font-size: $font-size-sm;
-            padding-left: calc(1em + #{$grid-gutter-width / 2});
+            padding-left: calc(1em + #{$grid-gutter-width-base / 2});
         }
     }
 }

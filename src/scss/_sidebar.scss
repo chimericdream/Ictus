@@ -3,8 +3,8 @@
     border-right: 1px solid #eee;
 
     .nav {
-        margin-left: ($grid-gutter-width / 2) * -1;
-        margin-right: ($grid-gutter-width / 2) * -1;
+        margin-left: ($grid-gutter-width-base / 2) * -1;
+        margin-right: ($grid-gutter-width-base / 2) * -1;
 
         & > .nav {
             margin-left: 0;
